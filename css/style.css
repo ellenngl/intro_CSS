@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7dfff;
+    font-family:'Times New Roman', Times, serif ;
+    color: oklab(81.65% 0.07297 -0.09468);
+}
+
+#sorvete{
+    position:absolute;
+     right: 700px; 
+     top: 0px;
+     width: 80px;
+}
+#cabecalho{
+    background-color: rgb(255, 201, 248);
+    color: #ffffff;
+    text-align: center;
+    padding: 35px;
+}
+#titulo{
+    color: rgb(252, 236, 236);
+    font-size: 2.5em;
+}
+.menu-item{
+    display: inline-block;
+    margin: 10px;
+    color: rgb(252, 236, 236);
+}
+
+.menu-item a{
+    text-decoration: none;
+    color:#e7dfff;
+}
+
+nav{
+    text-align: center;
+    background-color: #b59efa;
+}
+.menu-item a:hover{
+    color: rgb(255, 201, 248);
+    font-size: 2em;
+    transition: 0.5s;
+     cursor: pointer;
+}
+#destaque{
+ text-align: center;
+ font-size: 1.5em;
+ background-color: rgb(252, 236, 236);
+}
+.btn{
+    padding: 15px;
+     background-color: rgb(255, 201, 248);
+     color: rgb(255, 255, 255);
+     border-radius: 15px;
+    border: none;
+
+}
+
+img{
+    border-radius: 60px 0 60px 0;
+}
+
+img:hover{
+    border-radius: 0px 60px 0px 60px;
+    transition: 2s;
+}
+.btn:hover{
+     background-color: rgb(255, 201, 248);
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+}
+#promo{
+    text-align: center;
+    color: rgb(253, 149, 245)
+}
+.promocao{
+    border: solid rgb(252, 236, 236) 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nome{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 70px;
+
+}
+#pe{
+    text-align: center;
+    font-style: italic;
+}
+.produto{
+    color: rgb(247, 152, 239);
+}

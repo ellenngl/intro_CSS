@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7dfff;
+    font-family:'Times New Roman', Times, serif ;
+    color: oklab(81.65% 0.07297 -0.09468);
+}
+
+#sorvete{
+    position:absolute;
+     right: 700px; 
+     top: 0px;
+     width: 80px;
+}
+#cabecalho{
+    background-color: rgb(255, 201, 248);
+    color: #ffffff;
+    text-align: center;
+    padding: 35px;
+}
+#titulo{
+    color: rgb(252, 236, 236);
+    font-size: 2.5em;
+}
+.menu-item{
+    display: inline-block;
+    margin: 10px;
+    color: rgb(252, 236, 236);
+}
+
+.menu-item a{
+    text-decoration: none;
+    color:#e7dfff;
+}
+
+nav{
+    text-align: center;
+}
+.menu-item a:hover{
+    color: rgb(255, 201, 248);
+    font-size: 2em;
+    transition: 0.5s;
+     cursor: pointer;
+}
+#destaque{
+ text-align: center;
+ font-size: 1.5em;
+ background-color: rgb(252, 236, 236);
+}
+
+.contato {
+  width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #f47cff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b309b3;
+}
+#contatos-reclamacao{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+}
